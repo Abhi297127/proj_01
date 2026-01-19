@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corporate Life Ready - Student to Professional Guide</title>
+    <meta name="description" content="A comprehensive guide for students preparing to enter corporate life. Learn skills, etiquette, and what to expect in the corporate world.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>Corporate Ready</h1>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#before" class="nav-link">Before Corporate</a></li>
+                <li><a href="#structure" class="nav-link">Structure</a></li>
+                <li><a href="#culture" class="nav-link">Culture</a></li>
+                <li><a href="#daily" class="nav-link">Daily Life</a></li>
+                <li><a href="#dos-donts" class="nav-link">Do's & Don'ts</a></li>
+                <li><a href="#resources" class="nav-link">Resources</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background" style="background-image: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1200');"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h2 class="hero-title">
+                <span id="typingText"></span><span class="cursor">|</span>
+            </h2>
+            <p class="hero-subtitle">Your complete guide to thriving in the corporate world</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary" onclick="document.getElementById('before').scrollIntoView({behavior: 'smooth'})">Get Started</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('resources').scrollIntoView({behavior: 'smooth'})">Explore Resources</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before Entering Corporate Section -->
+    <section id="before" class="section before-corporate">
+        <div class="container">
+            <h2>Before Entering Corporate</h2>
+            <p class="section-subtitle">Essential skills and mindset you need to develop</p>
+            
+            <div class="skills-grid">
+                <!-- Skill Card 1 -->
+                <div class="skill-card">
+                    <div class="card-icon">💼</div>
+                    <h3>Professional Communication</h3>
+                    <p>Master email etiquette, formal writing, and effective verbal communication to leave lasting impressions in meetings.</p>
+                </div>
+
+                <!-- Skill Card 2 -->
+                <div class="skill-card">
+                    <div class="card-icon">⏰</div>
+                    <h3>Time Management</h3>
+                    <p>Learn to prioritize tasks, meet deadlines, and manage multiple projects efficiently in a fast-paced environment.</p>
+                </div>
+
+                <!-- Skill Card 3 -->
+                <div class="skill-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Teamwork & Collaboration</h3>
+                    <p>Develop interpersonal skills to work effectively with diverse teams and build strong professional relationships.</p>
+                </div>
+
+                <!-- Skill Card 4 -->
+                <div class="skill-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Business Acumen</h3>
+                    <p>Understand business fundamentals, industry knowledge, and how your role contributes to company goals.</p>
+                </div>
+
+                <!-- Skill Card 5 -->
+                <div class="skill-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Problem Solving</h3>
+                    <p>Develop critical thinking skills to analyze problems, propose solutions, and take ownership of outcomes.</p>
+                </div>
+
+                <!-- Skill Card 6 -->
+                <div class="skill-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Continuous Learning</h3>
+                    <p>Embrace a growth mindset and stay updated with industry trends, tools, and best practices.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corporate Life Structure Section -->
+    <section id="structure" class="section corporate-structure">
+        <div class="container">
+            <h2>Understanding Corporate Structure</h2>
+            <p class="section-subtitle">Know how organizations are typically organized</p>
+            
+            <div class="structure-wrapper">
+                <div class="hierarchy-chart">
+                    <div class="hierarchy-level level-1">
+                        <div class="hierarchy-box">CEO / Executive Director</div>
+                    </div>
+                    <div class="hierarchy-line"></div>
+                    
+                    <div class="hierarchy-level level-2">
+                        <div class="hierarchy-box">Department Heads / Senior Managers</div>
+                    </div>
+                    <div class="hierarchy-line"></div>
+                    
+                    <div class="hierarchy-level level-3">
+                        <div class="hierarchy-box">Team Leads / Managers</div>
+                    </div>
+                    <div class="hierarchy-line"></div>
+                    
+                    <div class="hierarchy-level level-4">
+                        <div class="hierarchy-box">Senior Executives / Specialists</div>
+                    </div>
+                    <div class="hierarchy-line"></div>
+                    
+                    <div class="hierarchy-level level-5">
+                        <div class="hierarchy-box level-highlight">You (Junior / Entry-Level)</div>
+                    </div>
+                </div>
+
+                <div class="structure-info">
+                    <h3>Key Roles in Corporate</h3>
+                    <ul class="info-list">
+                        <li><strong>Executives:</strong> Make strategic decisions and guide company direction</li>
+                        <li><strong>Managers:</strong> Oversee teams, assign tasks, and ensure project completion</li>
+                        <li><strong>Team Members:</strong> Execute tasks, contribute to projects, and support team goals</li>
+                        <li><strong>HR & Admin:</strong> Handle recruitment, policies, and organizational matters</li>
+                        <li><strong>Finance & Operations:</strong> Manage budgets, resources, and company efficiency</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Corporate Culture Section -->
+    <section id="culture" class="section corporate-culture">
+        <div class="container">
+            <h2>Corporate Culture & Etiquette</h2>
+            <p class="section-subtitle">Learn the unwritten rules of corporate life</p>
+            
+            <div class="culture-grid">
+                <!-- Office Etiquette -->
+                <div class="culture-card">
+                    <h3>🏢 Office Etiquette</h3>
+                    <ul>
+                        <li>Arrive on time (ideally 5-10 minutes early)</li>
+                        <li>Respect others' workspace and privacy</li>
+                        <li>Keep noise levels appropriate</li>
+                        <li>Use headphones responsibly</li>
+                        <li>Maintain cleanliness in shared spaces</li>
+                        <li>Respect others' calendar for meetings</li>
+                    </ul>
+                </div>
+
+                <!-- Communication Ethics -->
+                <div class="culture-card">
+                    <h3>💬 Communication Ethics</h3>
+                    <ul>
+                        <li>Emails: Professional tone, no slang or emojis</li>
+                        <li>Be concise and clear in written communication</li>
+                        <li>Always proofread before sending</li>
+                        <li>Respond to emails within 24 hours</li>
+                        <li>Use appropriate channels (email for formal, chat for informal)</li>
+                        <li>Never gossip or share sensitive information</li>
+                    </ul>
+                </div>
+
+                <!-- Dress Code -->
+                <div class="culture-card">
+                    <h3>👔 Dress Code Guidelines</h3>
+                    <ul>
+                        <li><strong>Business Formal:</strong> Suit, tie, formal shoes</li>
+                        <li><strong>Business Casual:</strong> Dress pants, polo shirt, formal shoes</li>
+                        <li><strong>Smart Casual:</strong> Jeans, formal top, casual shoes</li>
+                        <li>Choose based on company culture and client meetings</li>
+                        <li>When in doubt, dress more formally</li>
+                        <li>Keep accessories minimal and professional</li>
+                    </ul>
+                </div>
+
+                <!-- Meeting Etiquette -->
+                <div class="culture-card">
+                    <h3>🤐 Meeting Etiquette</h3>
+                    <ul>
+                        <li>Arrive on time (or early)</li>
+                        <li>Keep distractions away (silence phone)</li>
+                        <li>Take notes to show engagement</li>
+                        <li>Speak clearly and concisely</li>
+                        <li>Respect the agenda and time limits</li>
+                        <li>Follow up on action items promptly</li>
+                    </ul>
+                </div>
+
+                <!-- Social Interactions -->
+                <div class="culture-card">
+                    <h3>🤝 Social Interactions</h3>
+                    <ul>
+                        <li>Be friendly but maintain professionalism</li>
+                        <li>Participate in team events respectfully</li>
+                        <li>Avoid oversharing personal information</li>
+                        <li>Drink responsibly at office events</li>
+                        <li>Treat everyone with equal respect</li>
+                        <li>Build genuine workplace relationships</li>
+                    </ul>
+                </div>
+
+                <!-- Online Presence -->
+                <div class="culture-card">
+                    <h3>📱 Digital Professionalism</h3>
+                    <ul>
+                        <li>Use company-provided tools appropriately</li>
+                        <li>Monitor your social media presence</li>
+                        <li>Don't post negative content about your company</li>
+                        <li>Avoid controversial topics on work devices</li>
+                        <li>Keep personal and professional accounts separate</li>
+                        <li>Practice cybersecurity awareness</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Day-to-Day Corporate Life Section -->
+    <section id="daily" class="section daily-life">
+        <div class="container">
+            <h2>A Day in Corporate Life</h2>
+            <p class="section-subtitle">Here's what a typical workday might look like</p>
+            
+            <div class="daily-timeline">
+                <!-- Morning -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">🌅</div>
+                    <div class="timeline-content">
+                        <h3>8:00 AM - Morning Preparation</h3>
+                        <p>Arrive at office, settle at your desk, check emails and messages. Start your day with planning your priorities.</p>
+                    </div>
+                </div>
+
+                <!-- Standup -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">📋</div>
+                    <div class="timeline-content">
+                        <h3>9:00 AM - Team Standup/Meetings</h3>
+                        <p>Attend daily team meetings to discuss progress, blockers, and alignment on goals. Listen actively and contribute.</p>
+                    </div>
+                </div>
+
+                <!-- Deep Work -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">💻</div>
+                    <div class="timeline-content">
+                        <h3>10:00 AM - 12:00 PM - Deep Work</h3>
+                        <p>Focus on your main projects and deliverables. Minimize distractions. This is when you do the most productive work.</p>
+                    </div>
+                </div>
+
+                <!-- Lunch -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">🍽️</div>
+                    <div class="timeline-content">
+                        <h3>12:30 PM - 1:30 PM - Lunch Break</h3>
+                        <p>Take proper lunch break to recharge. Network with colleagues or have one-on-one conversations with teammates.</p>
+                    </div>
+                </div>
+
+                <!-- Afternoon Work -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">📊</div>
+                    <div class="timeline-content">
+                        <h3>1:30 PM - 4:00 PM - Meetings & Collaboration</h3>
+                        <p>Attend client calls, project meetings, and collaborative sessions. Provide updates and seek feedback on your work.</p>
+                    </div>
+                </div>
+
+                <!-- Wrap Up -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">✅</div>
+                    <div class="timeline-content">
+                        <h3>4:00 PM - 5:00 PM - End of Day</h3>
+                        <p>Complete pending tasks, update progress, and document your work. Reply to outstanding emails before leaving.</p>
+                    </div>
+                </div>
+
+                <!-- Evening -->
+                <div class="timeline-item">
+                    <div class="timeline-marker">🚪</div>
+                    <div class="timeline-content">
+                        <h3>5:00 PM - Departure</h3>
+                        <p>Leave on time or as per company policy. Maintain work-life balance and recharge for the next day.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="daily-tips">
+                <h3>💡 Tips for Daily Success</h3>
+                <div class="tips-grid">
+                    <div class="tip-box">
+                        <strong>Stay Organized:</strong> Use calendar, to-do lists, and project management tools to stay on top of tasks.
+                    </div>
+                    <div class="tip-box">
+                        <strong>Ask Questions:</strong> Don't hesitate to ask for clarification or help. It shows eagerness to learn.
+                    </div>
+                    <div class="tip-box">
+                        <strong>Build Relationships:</strong> Network with colleagues, grab coffee, and engage in team activities.
+                    </div>
+                    <div class="tip-box">
+                        <strong>Document Work:</strong> Keep records of your achievements and contributions for reviews and references.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Do's and Don'ts Section -->
+    <section id="dos-donts" class="section dos-donts">
+        <div class="container">
+            <h2>Do's and Don'ts in Corporate</h2>
+            <p class="section-subtitle">Quick reference guide for corporate success</p>
+            
+            <div class="dos-donts-grid">
+                <!-- Do's -->
+                <div class="do-dont-group dos">
+                    <h3>✅ Do's</h3>
+                    <div class="do-dont-list">
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Be punctual to work and meetings</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Listen actively in conversations</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Take ownership of your responsibilities</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Maintain a professional appearance</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Build genuine relationships with colleagues</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Keep learning and upgrading skills</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Deliver quality work on time</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✓</span>
+                            <p>Ask for feedback and act on it</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Don'ts -->
+                <div class="do-dont-group donts">
+                    <h3>❌ Don'ts</h3>
+                    <div class="do-dont-list">
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't be late without prior notice</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't interrupt or interrupt speakers</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't avoid responsibility or blame others</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't dress inappropriately for workplace</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't gossip or spread rumors</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't use company equipment for personal use</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't ignore emails or messages</p>
+                        </div>
+                        <div class="item">
+                            <span class="icon">✕</span>
+                            <p>Don't complain without proposing solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="section resources">
+        <div class="container">
+            <h2>Helpful Resources</h2>
+            <p class="section-subtitle">Tools and materials to prepare for your corporate journey</p>
+            
+            <div class="resources-grid">
+                <!-- Learning Resources -->
+                <div class="resource-category">
+                    <h3>📚 Learning Resources</h3>
+                    <ul class="resource-list">
+                        <li><a href="https://www.coursera.org/" target="_blank" rel="noopener noreferrer">Coursera - Professional Development Courses</a></li>
+                        <li><a href="https://www.linkedin.com/learning/" target="_blank" rel="noopener noreferrer">LinkedIn Learning - Business Skills</a></li>
+                        <li><a href="https://www.udemy.com/" target="_blank" rel="noopener noreferrer">Udemy - Career Development Courses</a></li>
+                        <li><a href="https://www.ted.com/" target="_blank" rel="noopener noreferrer">TED Talks - Career and Professional Growth</a></li>
+                    </ul>
+                </div>
+
+                <!-- Productivity Tools -->
+                <div class="resource-category">
+                    <h3>🛠️ Productivity Tools</h3>
+                    <ul class="resource-list">
+                        <li><a href="https://www.notion.so/" target="_blank" rel="noopener noreferrer">Notion - Task Management & Notes</a></li>
+                        <li><a href="https://www.asana.com/" target="_blank" rel="noopener noreferrer">Asana - Project Management</a></li>
+                        <li><a href="https://www.trello.com/" target="_blank" rel="noopener noreferrer">Trello - Team Collaboration</a></li>
+                        <li><a href="https://slack.com/" target="_blank" rel="noopener noreferrer">Slack - Communication Platform</a></li>
+                    </ul>
+                </div>
+
+                <!-- Professional Development -->
+                <div class="resource-category">
+                    <h3>🎓 Professional Development</h3>
+                    <ul class="resource-list">
+                        <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn - Professional Networking</a></li>
+                        <li><a href="https://www.indeed.com/" target="_blank" rel="noopener noreferrer">Indeed - Job Search & Career Tips</a></li>
+                        <li><a href="https://www.thebalancecareers.com/" target="_blank" rel="noopener noreferrer">The Balance Careers - Career Advice</a></li>
+                        <li><a href="https://www.themuse.com/" target="_blank" rel="noopener noreferrer">The Muse - Career Exploration</a></li>
+                    </ul>
+                </div>
+
+                <!-- Communication Skills -->
+                <div class="resource-category">
+                    <h3>💬 Communication Skills</h3>
+                    <ul class="resource-list">
+                        <li><a href="https://www.grammarly.com/" target="_blank" rel="noopener noreferrer">Grammarly - Writing Assistant</a></li>
+                        <li><a href="https://www.toastmasters.org/" target="_blank" rel="noopener noreferrer">Toastmasters - Public Speaking</a></li>
+                        <li><a href="https://www.skillshare.com/" target="_blank" rel="noopener noreferrer">Skillshare - Creative & Professional Skills</a></li>
+                        <li><a href="https://www.masterclass.com/" target="_blank" rel="noopener noreferrer">MasterClass - Expert-Led Courses</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Corporate Ready</h3>
+                <p>This is an educational project designed to help final-year students and freshers prepare for entering the corporate world. Learn essential skills, etiquette, and what to expect in your professional journey.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Disclaimer</h3>
+                <p>This website is for educational purposes only. Corporate cultures vary by organization and region. Always refer to your specific company's policies and guidelines.</p>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#before">Before Corporate</a></li>
+                    <li><a href="#culture">Corporate Culture</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Corporate Ready. All rights reserved. | Designed for Students | Built with ❤️</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
